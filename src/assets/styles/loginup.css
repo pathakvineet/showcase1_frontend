@@ -1,0 +1,71 @@
+.LoginUpView {
+    background-color: lightblue;
+    height: 100vh;
+    text-align: center;
+}
+
+/* .Wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    min-height: 420px;
+    width: 320px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0);
+    
+    box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.4);
+} */
+
+.LogHeader {
+    font-size: 6rem;
+    margin: 0;
+    padding: 50px;
+    color: white;
+}
+
+.Button2 {
+    background-color: yellow;
+    border-radius: 5px;
+}
+
+.Button1 {
+    margin: 1.8rem;
+    border: none;
+    border-radius: 2rem;
+    padding: 1rem 3rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    font-weight: 700;
+    letter-spacing: 2px;
+    cursor: pointer;
+    background-color: yellow;
+}
+
+.WrapperInputs {
+    width: 100%;
+    background: transparent;
+    font-size: 26px;
+    height: 20px;
+    width: 40%;
+    border: none;
+    border-bottom: 1px solid #fff;
+    color: white;
+    outline: none;
+    margin: 40px;
+}
+
+input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus, input:-webkit-autofill:active {
+    transition: background-color 5000s ease-in-out 0s;
+    -webkit-text-fill-color: #fff !important;
+}
+
+.InputForm {
+    padding: 30%;
+}
+
+.PhotoShowcase {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+}

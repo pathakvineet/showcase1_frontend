@@ -1,0 +1,82 @@
+.Dashboard {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px 10px;
+    grid-template-areas: "h h h " "a b c " "d e f ";
+    background: lightblue;
+    height: 100vh;
+}
+
+.Header {
+    grid-area: h;
+    padding: 50px;
+}
+
+.Header button {
+    float: right;
+}
+
+.Header h1 {
+    font-size: 5rem;
+    margin: 0;
+}
+
+.item-a {
+    grid-area: a;
+    padding: 50px;
+}
+
+.item-b {
+    grid-area: b;
+    padding: 50px;
+}
+
+.item-c {
+    grid-area: c;
+    padding: 50px;
+}
+
+.item-d {
+    grid-area: d;
+    padding: 50px;
+}
+
+.item-e {
+    grid-area: e;
+    padding: 50px;
+}
+
+.item-f {
+    grid-area: f;
+    padding: 50px;
+}
+
+.CardHeader {
+    background-color: yellow;
+    margin: 0px;
+    padding: 10px;
+}
+
+.ContentContainer {
+    border: 2px solid yellow;
+    height: 100%;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, .3);
+    width:400px;
+}
+
+.PhotoPreview {
+    display: grid;
+    grid-template-columns: repeat(2, 50px);
+    grid-template-rows: repeat(2, auto);
+    grid-gap: 10px;
+    margin: auto;
+    width: 25%;
+    padding-top: 30px;
+}
+
+.PageTitle{
+    margin: 0;
+    font-size: 5rem;
+    padding: 30px;
+}
