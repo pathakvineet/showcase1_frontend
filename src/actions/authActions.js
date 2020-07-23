@@ -4,7 +4,7 @@ import jwt_decode from "jwt-decode";
 import * as actions from "./actionTypes";
 
 export const signupUser = (data) => dispatch => {
-
+    dispatch({type: actions.SIGNUP});
     axios.post("/api/v1/signup", data)
         .then(res => {
             const { token } = res.data;
